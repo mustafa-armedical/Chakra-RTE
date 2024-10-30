@@ -15,7 +15,10 @@
   "author": "Frédéric Lang",
   "license": "ISC",
   "devDependencies": {
-    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/icon": "^3.2.0",
+    "@chakra-ui/icons": "^2.1.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
     "@emotion/babel-plugin": "^11.9.2",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -26,8 +29,6 @@
     "@types/react-dom": "^18.0.5",
     "@vitejs/plugin-react": "^1.3.2",
     "esbuild": "^0.14.44",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -37,10 +38,11 @@
     "vite": "^2.9.13"
   },
   "peerDependencies": {
-    "@chakra-ui/react": "^2.2.1",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "framer-motion": "^6.3.16",
+    "@chakra-ui/icon": "^3.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "framer-motion": "^11.5.4",
     "react": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
